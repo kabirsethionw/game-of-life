@@ -11,6 +11,7 @@
    4. Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
  <h2>Objectives</h2>
+ 
  - Implement the game of life data structures and algorithm.
  - Demonstrate that game of life algorithm works.
 
@@ -20,5 +21,6 @@
 - Output the resulting grid in the console.
 
 <h2>Assumptions</h2>
+
 - Given *MxN* grid, user will input the live cells in that grid and not somewhere outside.
 - The grid expands if the live cells reach the boundary, by a factor `F` and the older cell values are translated to the center of the new matrix, making the rest of the new cells are padding of the older ones.
